@@ -36,7 +36,7 @@ resource "aws_security_group" "sg_ejemplo_02" {
     to_port     = 0
     protocol    = "-1"
     cidr_blocks = ["0.0.0.0/0"]
-  }  
+  }
 }
 
 # Creamos una instancia EC2

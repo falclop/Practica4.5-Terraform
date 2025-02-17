@@ -38,3 +38,6 @@ systemctl enable docker
 
 # Iniciamos el servicio de Docker
 systemctl start docker
+
+# Reiniciamos el grupo docker
+newgrp docker
