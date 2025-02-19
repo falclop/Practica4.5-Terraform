@@ -291,28 +291,28 @@ output "public_ip_frontend2" {
 Una vez tenemos los documentos, debemos conocer la secuencia de comandos:  
 - **terraform init**: inicia el entorno de trabajo para terraform.  
 
-![](/Practica4.5-Terraform/images/1.png)  
+![](/images/1.png)  
 
 - **terraform fmt**: formatea el documento main para que cumpla la forma correcta.
 
 - **terraform plan**: da una vista previa de los comandos y las actuaciones que se van a ejecutar.  
 
-![](/Practica4.5-Terraform/images/2.png)  
+![](/images/2.png)  
 
 - **terraform apply**: ejecuta las órdenes del main.tf.  
 
-![](/Practica4.5-Terraform/images/3.png)  
+![](/images/3.png)  
 
 Como vemos nos pide una confirmación, para evitarla podemos poner la opción **-auto-approve**
-![](/Practica4.5-Terraform/images/4.png)  
+![](/images/4.png)  
 
 Además como podemos comprobar, la salida que nos muestra es las diferentes variables que programamos en **output.tf**  
 
 ### Comprobaciones
 Si vamos a nuestro laboratorio de AWS veremos las instancias, la ip elástica y los grupos de seguridad, creados y asignados.  
 
-![](/Practica4.5-Terraform/images/5.png)  
+![](/images/5.png)  
 
-![](/Practica4.5-Terraform/images/6.png)  
+![](/images/6.png)  
 
-![](/Practica4.5-Terraform/images/7.png)
+![](/images/7.png)
